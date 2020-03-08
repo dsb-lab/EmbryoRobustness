@@ -5,3 +5,4 @@
 This repository contains the code to reproduce the modeling figures of the paper by Saiz et al, posted in bioRxiv (preprint [2019.12.27.889006](http://dx.doi.org/10.1101/2019.12.27.889006)). The contents are:
 
 * [`fig2b.ipynb`](fig2b.ipynb): self-contained Jupyter notebook to generate the phase portrait shown in Figure 2b.
+* [`fig2c.ipynb`](fig2c.ipynb): Jupyter notebook to generate the lineage dynamics plot shown in Figure 2c. This notebook compiles and runs the C program `embryo_v1.c`, and plots the correspoding results. It requires the C compiler `cc` and the utility `make`, which can be used directly in Linux, or in Mac OS X after installation of `Xcode`.
