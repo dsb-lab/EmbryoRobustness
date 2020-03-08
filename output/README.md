@@ -1,1 +1,1 @@
-This directory is required to store the simulation results of the C code.
+This folder is required to store the simulation results of the C code.
